@@ -5,7 +5,6 @@ import viteCompression from 'vite-plugin-compression';
 import tsconfigPaths from 'vite-tsconfig-paths';
 
 export default defineConfig({
-    base: '/login/',
     plugins: [
         react({
             jsxImportSource: '@emotion/react',
@@ -27,14 +26,14 @@ export default defineConfig({
         rollupOptions: {
             plugins: [viteCompression()]
         }
-    },
-    server: {
-        proxy: {
-            '/relog-local-api': {
-                target: 'http://localhost:3000',
-                changeOrigin: true,
-                rewrite: (path) => path.replace(/^\/relog-local-api/, '')
-            }
-        }
     }
+    // server: {
+    //     proxy: {
+    //         '/some-api': {
+    //             target: 'http://localhost:3000',
+    //             changeOrigin: true,
+    //             rewrite: (path) => path.replace(/^\/some-api/, '')
+    //         }
+    //     }
+    // }
 });
