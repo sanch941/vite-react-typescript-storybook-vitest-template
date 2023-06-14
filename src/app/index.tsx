@@ -3,6 +3,9 @@ import { HomePage } from '../pages/home';
 import { store } from './store';
 import { Global } from './styles/global';
 
+import './styles/index.css';
+import './styles/tailwind.css';
+
 export const App = () => {
     return (
         <>

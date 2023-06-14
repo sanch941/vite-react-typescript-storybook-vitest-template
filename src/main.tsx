@@ -1,4 +1,8 @@
-import ReactDom from 'react-dom';
-import { App } from './app';
+import { App } from '@app';
+import { createRoot } from 'react-dom/client';
+const container = document.getElementById('root');
 
-ReactDom.render(<App />, document.getElementById('root-relog-login-page'));
+if (container) {
+    const root = createRoot(container);
+    root.render(<App />);
+}

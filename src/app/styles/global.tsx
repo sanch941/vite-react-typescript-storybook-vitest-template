@@ -5,10 +5,17 @@ const globalStyles = css`
     ${normalize};
 
     body {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 1em;
-        color: #5a5a5a;
-        line-height: 1.4;
+        font-family: 'Ubuntu', sans-serif !important;
+    }
+
+    input,
+    h2,
+    p,
+    span,
+    a,
+    button,
+    div {
+        font-family: 'Ubuntu', sans-serif !important;
     }
 `;
 

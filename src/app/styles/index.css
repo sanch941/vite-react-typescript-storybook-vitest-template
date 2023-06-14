@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2,
+h3,
+p {
+    font-weight: 400;
+}
+
+button {
+    border: 0;
+    outline: none;
+    background-color: transparent;
+}
+
+.TVMainForm {
+    background-color: red !important
+}
