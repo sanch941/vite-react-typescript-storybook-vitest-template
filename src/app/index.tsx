@@ -1,19 +1,17 @@
 import { Provider } from 'react-redux';
 import { HomePage } from '../pages/home';
 import { store } from './store';
-import { Global } from './styles/global';
 
-import './styles/index.css';
+// You can use reset or normalize css
+// import 'reset-css';
+import 'normalize.css';
+import './styles/index.scss';
 import './styles/tailwind.css';
 
 export const App = () => {
     return (
-        <>
-            <Global />
-
-            <Provider store={store}>
-                <HomePage />
-            </Provider>
-        </>
+        <Provider store={store}>
+            <HomePage />
+        </Provider>
     );
 };

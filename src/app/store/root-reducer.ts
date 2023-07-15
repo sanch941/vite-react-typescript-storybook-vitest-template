@@ -1,2 +1,5 @@
+import { homeReducer } from '@pages/home/model';
 
-export const rootReducer = {};
+export const rootReducer = {
+    home: homeReducer
+};
