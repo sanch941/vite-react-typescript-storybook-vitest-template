@@ -6,7 +6,11 @@ export default {
         './src/app/styles/index.css'
     ],
     theme: {
-        extend: {}
+        extend: {
+            screens: {
+                sm: '768px'
+            }
+        }
     },
     plugins: [],
     corePlugins: {
