@@ -12,11 +12,13 @@
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@reduxjs/toolkit": "^1.9.2",
+    "clsx": "^2.1.0",
     "normalize.css": "^8.0.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-redux": "^8.0.5",
-    "reset-css": "^5.0.1"
+    "reset-css": "^5.0.1",
+    "tailwind-merge": "^2.2.1"
   },
   "devDependencies": {
     "@emotion/babel-plugin": "^11.10.5",
