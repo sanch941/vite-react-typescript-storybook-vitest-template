@@ -15,7 +15,6 @@ module.exports = {
   ],
   parser: '@typescript-eslint/parser',
   plugins: ['react-refresh', 'i18next', 'simple-import-sort'],
-  ignorePatterns: ['dist', 'node_modules', '.eslintrc.cjs'],
   rules: {
     'prettier/prettier': 'warn',
     'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],

@@ -47,3 +47,4 @@ package.json
 *.scss.d.ts
 public
 .eslintrc.cjs
+postcss.config.js
