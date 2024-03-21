@@ -32,16 +32,8 @@ node_modules
 
 # src packaged
 release
-src/main.prod.js
-src/main.prod.js.map
-src/renderer.prod.js
-src/renderer.prod.js.map
-src/style.css
-src/style.css.map
 dist
 dll
-main.js
-main.js.map
 
 .idea
 npm-debug.log.*
@@ -54,3 +46,4 @@ package.json
 *.sass.d.ts
 *.scss.d.ts
 public
+.eslintrc.cjs

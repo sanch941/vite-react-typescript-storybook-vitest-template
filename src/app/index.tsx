@@ -1,17 +1,7 @@
-import { Provider } from 'react-redux';
-import { HomePage } from '../pages/home';
-import { store } from './store';
+import { HomePage } from '../pages/home'
 
-// You can use reset or normalize css
-// import 'reset-css';
-import 'normalize.css';
-import './styles/index.scss';
-import './styles/tailwind.css';
+import './style.css'
 
 export const App = () => {
-    return (
-        <Provider store={store}>
-            <HomePage />
-        </Provider>
-    );
-};
+  return <HomePage />
+}
